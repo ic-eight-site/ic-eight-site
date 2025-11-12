@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FAQ — IC Eight</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="FAQ for IC Eight — Japanese localization that stays true to tone and intent.">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+:root{
+  --ink:#0b0c0e; --sub:#5a5e66; --line:#e8eaef; --bg:#ffffff;
+  --max:860px; --pad:40px; --tight:24px; --accent:#0b0c0e;
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font:16px/1.75 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans JP",sans-serif;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+.wrap{max-width:var(--max); margin:0 auto; padding:0 22px}
+section{padding:var(--pad) 0}
+h1,h2{line-height:1.15; margin:0 0 8px; letter-spacing:-.01em}
+h1{font-size:clamp(32px,5.6vw,50px)}
+p{margin:6px 0 10px}
+.lead{font-size:clamp(17px,2.4vw,20px); color:#23252b}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+.hr{height:1px; background:var(--line); margin:24px 0}
+details{border:1px solid var(--line); border-radius:10px; padding:12px 16px; margin-bottom:12px; background:#fff}
+summary{font-weight:600; cursor:pointer}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+"; float:right}
+details[open] summary:after{content:"–"}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+  <section>
+    <h1>FAQ</h1>
+    <p class="lead">Quick answers to the questions we get most often.</p>
+    <div class="hr"></div>
+
+    <details open>
+      <summary>What makes IC Eight different from other localization vendors?</summary>
+      <p>We work directly with clients — no middle layers, no generic templates. Every project is handled by a single localization writer, ensuring tone and clarity stay intact.</p>
+    </details>
+
+    <details>
+      <summary>Do you use AI tools?</summary>
+      <p>Yes, when they enhance clarity and efficiency — never at the cost of human judgment or voice.</p>
+    </details>
+
+    <details>
+      <summary>What kind of AI do you use?</summary>
+      <p>We use different AI tools depending on the project — mainly for research, tone calibration, and draft review. If you’re curious how we think about machine translation and AI-assisted work, here’s a detailed look:<br>
+      <a href="deepl-vs-gpt.html">DeepL or GPT? Why the Type of AI Translation Matters →</a></p>
+    </details>
+
+    <details>
+      <summary>What if our team doesn’t have a localization manager?</summary>
+      <p>No problem — we guide you through the process. You share your English content, we handle the rest, keeping it structured and ready for your CMS or publishing workflow.</p>
+    </details>
+
+    <details>
+      <summary>Do you handle only Japanese localization?</summary>
+      <p>Yes — that’s our focus. But we can refer you to trusted partners for other Tier 1 languages if needed.</p>
+    </details>
+
+    <div class="hr"></div>
+    <a href="index.html" class="cta">← Back to home</a>
+  </section>
+</div>
+</body>
+</html>
