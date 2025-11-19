@@ -182,12 +182,13 @@
 </section>
 
 </main>
-<footer class="site-footer">
+
+  <footer class="site-footer">
   <div class="footer-content">
     <div class="footer-logo">
-      <img src="ICEight_transparent.png" alt="IC Eight — Japanese UX Localization for SaaS" style="height:40px; opacity:0.85;">
+      <img src="ICEight_transparent_original.png" alt="IC Eight — Japanese UX Localization for SaaS" style="height:40px; opacity:0.85;">
     </div>
-    
+
     <nav class="footer-nav">
       <a href="/index.html">Home</a>
       <a href="/services.html">Services</a>
@@ -195,10 +196,20 @@
       <a href="mailto:hello@ic-eight.com">Contact</a>
     </nav>
 
-    <p class="footer-meta">Last updated: November 19, 2025</p>
+    <p class="footer-meta">Last updated: <span id="last-modified"></span></p>
     <p class="footer-copy">© IC Eight — Human craft, tuned for the AI era.</p>
   </div>
-</footer>  
+
+  <script>
+    const modified = new Date(document.lastModified);
+    document.getElementById("last-modified").textContent = modified.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    });
+  </script>
+</footer>
+  
 <script>document.getElementById('y').textContent=(new Date).getFullYear()</script>
 </body>
 </html>
