@@ -38,3 +38,43 @@ li{margin:6px 0}
 .footer small{color:var(--sub)}
 .hr{height:1px; background:var(--line); margin:16px 0 0}
 section{padding:36px 0 12px}
+.site-footer {
+  padding: 48px 20px;
+  background: #f8f8f8;
+  text-align: center;
+  font-size: 0.9em;
+  color: #444;
+  border-top: 1px solid #ddd;
+  margin-top: 64px;
+}
+
+.site-footer .footer-logo img {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.footer-nav {
+  margin: 20px 0;
+}
+
+.footer-nav a {
+  margin: 0 10px;
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-meta {
+  margin: 8px 0;
+  color: #666;
+  font-size: 0.85em;
+}
+
+.footer-copy {
+  color: #888;
+  font-size: 0.85em;
+}
