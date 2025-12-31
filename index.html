@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="wrap">
+  <div class="wrap">
 
     <!-- Slide 1 — Title -->
     <section style="padding-top:48px">
@@ -20,14 +20,14 @@
 
     <!-- Lead -->
     <section>
-      <h1>We don't fix translations.<br>We fix adoption.</h1>
+      <p><strong>We don't fix translations. We fix adoption.</strong></p>
       <p class="lead">You ran your site through DeepL. Asked a Japanese friend to check it. Launched — and your Japan signup rate is 2%.</p>
     </section>
 
     <!-- Why We Exist -->
     <section>
       <h2>Why We Exist</h2>
-      <p class="lead">I spent over 25 years as a translator — and hated every moment I wasn’t allowed to ask:</p>
+      <p>I spent over 25 years as a translator — and hated every moment I wasn’t allowed to ask:</p>
       <ul>
         <li>“Why does this need to be translated?”</li>
         <li>“Will this make users act?”</li>
@@ -39,21 +39,20 @@
     <!-- What We Do -->
     <section>
       <h2>What We Do</h2>
-      <p class="lead">We help global SaaS and AI products work in Japan by designing UX-native Japanese — including:</p>
       <ul>
-        <li>Onboarding that feels predictable and safe</li>
-        <li>Messaging that reflects your brand in context</li>
-        <li>Help and UI copy that users don’t have to “read twice”</li>
+        <li>Audit your current Japanese UX — and show you why users might hesitate or leave</li>
+        <li>Rewrite product UI strings, onboarding flows, and support messages for clarity, trust, and usability</li>
+        <li>Help you integrate AI and human workflows without losing control of quality</li>
+        <li>Build internal knowledge so your team can move faster and localize smarter</li>
       </ul>
     </section>
 
-    <!-- Why It Works -->
+    <!-- Comparison -->
     <section>
-      <h2>Why It Works</h2>
-      <p class="lead">Because you stay in control. We guide your team through a workflow that keeps AI efficiency — and adds human insight.</p>
+      <h2>Why This Works</h2>
       <div class="grid cols-2">
-        <div>
-          <p><strong>Traditional Localization</strong></p>
+        <div class="card">
+          <h3>Traditional Localization</h3>
           <ul>
             <li>Translate, then review</li>
             <li>Vendor delivers files</li>
@@ -61,8 +60,8 @@
             <li>Focuses on accuracy</li>
           </ul>
         </div>
-        <div>
-          <p><strong>IC Eight</strong></p>
+        <div class="card">
+          <h3>IC Eight</h3>
           <ul>
             <li>Generate UX-native Japanese</li>
             <li>You stay in control</li>
@@ -73,36 +72,35 @@
       </div>
     </section>
 
-    <!-- CTA -->
+    <!-- Articles -->
     <section>
-      <h2>Ready to make your product work in Japan?</h2>
-      <p class="lead">Japanese localization built for clarity, confidence, and adoption.</p>
-      <p><strong>One operator. One language pair.</strong></p>
-      <div class="row">
-        <a href="mailto:hello@ic-eight.com" class="btn">Get in touch</a>
-        <a href="#articles" class="cta">View articles</a>
-      </div>
+      <h2>Articles</h2>
+      <p class="sub">Thought pieces, analyses, and notes on the future of Japanese localization — written for teams building global products.</p>
+      <ul>
+        <li>
+          <strong>When a “Localized” Product Still Feels Unlocalized →</strong><br />
+          A look at Gamma's Japanese UX and why language still defines usability.
+        </li>
+        <li>
+          <strong>Start Smaller, Win Faster – Why Multilingual Rollouts Don’t Need to Be All-or-Nothing →</strong><br />
+          Multilingual launches sound impressive — but they often fail to deliver. Here’s why smaller, phased rollouts create stronger UX, faster wins, and smarter teams.
+        </li>
+        <li>
+          <strong>DeepL or GPT? Why the Type of AI Translation Matters →</strong><br />
+          Updated for LLM-first workflows in 2025. What's best for your product?
+        </li>
+      </ul>
+      <p><a href="https://medium.com/@ic-eight" target="_blank">View all articles on Medium →</a></p>
     </section>
 
-    <!-- Articles -->
-    <section id="articles">
-      <h2>Articles</h2>
-      <p class="lead">Thought pieces, analyses, and notes on the future of Japanese localization — written for teams building global products.</p>
-      <div class="grid">
-        <div class="card">
-          <h3><a href="https://medium.com/@ic-eight/when-a-localized-product-still-feels-unlocalized-6cb1cbb1d4a1" target="_blank">When a “Localized” Product Still Feels Unlocalized →</a></h3>
-          <p class="sub">A look at Gamma's Japanese UX and why language still defines usability.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://medium.com/@ic-eight/start-smaller-win-faster-why-multilingual-rollouts-dont-need-to-be-all-or-nothing-57c02f327f30" target="_blank">Start Smaller, Win Faster →</a></h3>
-          <p class="sub">Multilingual launches sound impressive — but they often fail to deliver. Here’s why smaller, phased rollouts create stronger UX, faster wins, and smarter teams.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://medium.com/@ic-eight/deepl-or-gpt-why-the-type-of-ai-translation-matters-december-2025-edition-9d03f5f62c9f" target="_blank">DeepL or GPT? Why the Type of AI Translation Matters →</a></h3>
-          <p class="sub">Updated for LLM-first workflows in 2025. What's best for your product?</p>
-        </div>
-      </div>
-      <p style="margin-top:20px"><a href="https://medium.com/@ic-eight" target="_blank">View all articles on Medium →</a></p>
+    <!-- CTA -->
+    <section>
+      <div class="hr"></div>
+      <p class="lead">Ready to make your product work in Japan?<br />
+        Japanese localization built for clarity, confidence, and adoption.</p>
+      <p><strong>One operator. One language pair.</strong></p>
+      <p><a class="btn" href="#contact">Get in touch</a></p>
+      <p><a class="cta" href="#about">Curious who’s behind IC Eight?</a></p>
     </section>
 
     <!-- Footer -->
@@ -110,15 +108,15 @@
       <div class="footer-logo">
         <img src="logo.svg" alt="IC Eight Logo" />
       </div>
-      <div class="footer-nav">
-        <a href="#">Home</a>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
         <a href="#articles">Articles</a>
-        <a href="mailto:hello@ic-eight.com">Contact</a>
-      </div>
-      <div class="footer-meta">© 2025 IC Eight</div>
-      <div class="footer-copy">UX-native Japanese localization. Built for adoption, not just translation.</div>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-meta">© 2025 IC Eight. All rights reserved.</div>
+      <div class="footer-copy">UX-native Japanese localization for global products.</div>
     </footer>
 
-  </main>
+  </div>
 </body>
 </html>
