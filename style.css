@@ -103,3 +103,9 @@ section{padding:36px 0 12px}
 .comparison-table tr:nth-child(even) td {
   background-color: #fafafa;
 }
+
+.intro-divider {
+  border-top: 1px solid rgba(0,0,0,.18);
+  width: 60%;
+  margin: 1.8em auto 1em auto;
+}
