@@ -42,40 +42,31 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "Organization",
+      "@id": "https://ic-eight.com/#org",
       "name": "IC Eight",
       "url": "https://ic-eight.com",
       "logo": "https://ic-eight.com/og-image.jpg",
-      "description": "Japanese UX localization for SaaS and global product teams. We reshape product language to make it feel clear, trusted, and intentional in Japan — beyond translation.",
-
-      "datePublished": "2025-11-12"
-      "dateModified": "2026-01-02"
-  
-      "keywords": [
-      "Japanese UX localization",
-      "SaaS localization",
-      "UX writing in Japanese",
-      "Japanese onboarding UX",
-      "EN-JA product adaptation",
-      "AI-generated Japanese rewrite",
-      "UX localization strategy Japan"
-      ],
+      "description": "Japanese UX localization for SaaS and global product teams. We reshape product language so products feel clear, trusted, and intentional in Japan — beyond translation.",
       "sameAs": [
         "https://www.linkedin.com/company/ic-eight",
         "https://medium.com/@ic-eight",
         "https://twitter.com/HelloICEight"
       ]
     },
+
     {
       "@type": "WebSite",
       "@id": "https://ic-eight.com/#website",
       "url": "https://ic-eight.com",
       "name": "IC Eight",
       "publisher": {
-        "@id": "https://ic-eight.com"
+        "@id": "https://ic-eight.com/#org"
       }
     },
+
     {
       "@type": "WebPage",
       "@id": "https://ic-eight.com/index.html",
@@ -84,8 +75,11 @@
       "description": "Japanese UX localization for SaaS and global product teams. We reshape product language to make it feel clear, trusted, and intentional in Japan — beyond translation.",
       "isPartOf": {
         "@id": "https://ic-eight.com/#website"
-      }
+      },
+      "datePublished": "2025-11-12",
+      "dateModified": "2026-01-02"
     }
+
   ]
 }
 </script>
