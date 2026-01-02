@@ -21,4 +21,9 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://ic-eight.com/workflow.html</loc>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
